@@ -2,10 +2,12 @@
 I will break this down in to two cases.
 
 Case 1：If n-mid==citations[mid]:
-We cannot increase the h-index anymore. (If we increase it by 1, the citation before will be excluded, and the number of citations>=h-index will definitely be less than h-index)
+We cannot increase the h-index anymore. (If we increase it by 1, the citation before will be excluded, and the number of 
+citations>=h-index will definitely be less than h-index)
 
 Case 2: We exit the binary search without hitting the n-mid==citations[mid] condition：
-We know that the binary search will stop at the index where citations[low]<h-index< citations[low+1], the maximum h_index possible will be the length of citations[low+1:].
+We know that the binary search will stop at the index where citations[low]<h-index< citations[low+1], the maximum h_index possible 
+will be the length of citations[low+1:].
 """
 
 
