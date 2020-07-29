@@ -8,3 +8,13 @@ class Solution:
             else:
                 b.add(i) 
         return (a.difference(b))
+		
+		
+		
+"""
+Example:
+
+Input:  [1,2,1,3,2,5]
+Output: [3,5]
+
+"""
